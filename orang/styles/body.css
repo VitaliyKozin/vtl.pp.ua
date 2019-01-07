@@ -1,0 +1,53 @@
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+h3
+{
+	
+text-align: left-side; font-size:150% ;font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 600; font-style: italic;
+ 	
+}
+
+table, tr, td
+{
+ padding: 0;	
+ border: 0;
+ border-collapse: collapse; 
+}
+
+td.body
+{
+vertical-align: top;
+text-align: center;
+ width :15%; 	
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 400;
+color: #0D58A6;
+
+	
+}
+
+
+td.center
+{
+vertical-align: top;
+text-align:left;
+width :70%;
+ background-color:#FFFFcc;	
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding: 0 10px;
+}
+
+
+tr.footer
+{
+height:100px;
+ width:100%;
+ text-align:right;
+ color: #0D58A6
+}

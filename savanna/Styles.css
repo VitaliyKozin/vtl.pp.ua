@@ -1,0 +1,200 @@
+﻿/**********************ОСНОВНЕ•*********************/
+
+/* обнуляємо відступи і поля */
+*
+{
+margin: 0;
+padding:  0;	
+	
+}
+/*загальний стиль тіла*/
+body
+{
+	background-color: #999999;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+/* центруємо сайт по центру */
+div
+ {
+  margin: 0 auto;
+  width: 1100px;
+  text-align: left;
+}
+/*загальний стиль таблиці 00*/
+table.00
+{
+	background-image: url('images/Savanna-background.jpg'); 
+	width: 1100px;
+	height: 900px;
+	border-width: 0px;
+	border-color: #000;
+	border-style: solid;
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px; 
+	
+}
+
+/*стиль клітинки body1*/
+td.body1
+{
+	border-width: 0px;
+	border-color: #000;
+	border-style: solid;
+	border-collapse: collapse;
+	width: 1090px;
+	height: 587px;
+	text-align: top;
+	padding-bottom: 420px;
+	
+}
+
+/*стиль таблиці "header"*/
+table.header
+{
+	width: 1000px;
+	border-width: 0px;
+	border-color: #000;
+	border-style: solid;
+	border-collapse: collapse;
+	margin-left: 50px;
+}
+/*стиль лінії менюшки*/
+tr.line
+{
+    border-top: 2px solid #75562e; /* Р›РёРЅРёСЏ Р·РІРµСЂС…Сѓ С‚РµРєСЃС‚Сѓ */
+    border-bottom: 2px solid #75562e; /* Р›РёРЅРёСЏ Р·РЅРёР·Сѓ С‚РµРєСЃС‚Сѓ */
+    	
+	
+}
+/*стиль логотипу*/
+td.logo
+{
+	border-width: 0px;
+	border-color: #000;
+	border-style: solid;
+	border-collapse: collapse;
+	width: 1000px;
+	text-align: left;
+	padding-left: 10px;
+	padding-bottom: 8px;
+	color: #f8f6f1;
+	font-family: Century, Helvetica,serif,italic;
+	font-size:72px ;
+}
+/*стиль клітинки меню*/
+td.menu
+{
+	border-width: 0px;
+	border-color: #000;
+	border-style: solid;
+	border-collapse: collapse;
+	height: 60px;
+	text-align: center;
+	color: #f8f6f1;
+	font-family: Arial, Helvetica,san-serif,italic;
+	font-size:24px ;
+}
+
+
+/*картинка футеру квадрат*/
+td.big_square
+{
+	border-width: 0px;
+	border-color: #000;
+	border-style: solid;
+	border-collapse: collapse;
+	text-align: center;
+	padding-left: 40px;
+	padding-bottom: 40px;
+	
+}
+/*стиль клітинки з текстом "How..."*/
+td.how
+{
+	border-width: 0px;
+	border-color: #000;
+	border-style: solid;
+	border-collapse: collapse;
+	text-align: left;
+	padding-left: 20px;
+	padding-bottom: 140px;
+	color: #f5f1ec;
+	font-family: Century, Helvetica, serif, italic;
+	font-size:30 px ;
+}
+/*стиль клітинки з текстом "Recent..."*/
+td.recent
+{
+	border-width: 0px;
+	border-color: #000;
+	border-style: solid;
+	border-collapse: collapse;
+	text-align: center;
+	padding-left: 10px;
+	padding-bottom: 100px;
+	color: #f5f1ec;
+	font-family: Century, Helvetica, serif, italic;
+	font-size:30 px ;
+}
+/* стиль лінії підкреслювання  тексту в футері */
+hr
+{
+	background-color: #dac1a5; 
+    color: #dac1a5; 
+    size : 1px; 
+   
+}
+
+
+/**********************ШРИФТИ*********************/
+/* стиль тексту"reviver" */
+span.reviver
+{
+	color: #ab9163;
+}
+
+/* колір тексту */ 
+span.brown
+{
+	
+color: #d3a66d;	
+}
+
+/****************ПОСИЛАННЯ**************/
+/* не посещенная ссылка */
+a:link 
+{
+    color: #f8f6f1; 
+}
+
+/*посилання  без підкреслювання*/
+a
+{
+	text-decoration: none;
+}
+/*не посещенная ссылка*/
+a.menu:link 
+{
+	color: #f8f6f1;
+} 
+
+/*посещенная ссылка*/
+a.menu:visited 
+{
+	color: #f8f6f1;
+} 
+
+/*перемещение мышки над ссылкой*/
+a.menu:hover 
+{
+	color: #ab9163;
+} 
+
+/*активная ссылка*/
+a.menu:active 
+{
+	color: #5c421f;
+} 

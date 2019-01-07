@@ -1,0 +1,304 @@
+/**********************ОСНОВНЕ*********************/
+/*загальний стиль тіла*/
+body
+{	background: #FFFFFF;
+    text-align: center;
+	
+	
+}
+div
+ {
+  margin: 0 auto;
+  width: 1400px;
+  text-align: left;
+}
+
+/*загальний стиль таблиці"00"*/
+table.00  
+{   width:1400px ; 
+    height:1629px;
+   	border-color: #000;
+	border-style: solid;
+	border-collapse: collapse;
+	
+	}
+
+/*загальний стиль таблиці "menu"*/
+table.menu
+{
+	width:1000px ; 
+    height: 20px;
+    border: 0px;
+	border-collapse: collapse;
+	margin-top: 45px;
+	margin-left: 200px;
+	
+}	
+/*загальний стиль таблиці "mobil"*/
+table.mobil
+{
+	width:1000px ; 
+    height:527px;
+    border: 0px;
+	border-collapse: collapse;
+	margin-left: 200px;
+	padding-top: 900px;
+	
+}	
+
+/*загальний стиль вкладеної таблиці "refe_mobile"*/
+table.refe_mobile
+{
+	width:1000px ; 
+    height:48px;
+    border: 0px;
+	border-collapse: collapse;
+	margin-top: 400px;
+}
+/*загальний стиль таблиці "IMGS"*/
+table.IMGS
+{
+	width:1000px ; 
+    height:500px;
+    border: 0px;
+	border-collapse: collapse;
+	margin-left:197px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}	
+
+/*загальний стиль таблиці "footer"*/
+table.footer
+{
+	width:1000px ;
+    height: 423px; 	
+    border: 0px;
+	margin: 0px;
+	padding-top: 0px;
+	color: #f8f9fb;
+	font-family: Arial, Helvetica, sans-serif,italic;
+	font-size:16px ;
+	
+	
+}	 
+ /* cиль рядка футеру tr1 */
+ tr.footer_tr1
+ {
+height: 255px;	 
+ }
+/* стиль тексту "refe mobile..."*/
+td.text_refe
+{
+    border: 0px;
+	border-collapse: collapse;
+	text-align: center ;
+	padding-left:20px;
+	padding-right: 85px;
+	font-family: Arial, Helvetica, sans-serif,italic;
+	font-size:48px ;
+	color: #eff2f7;
+	
+}	
+/* стиль клітинки вкладеної таблиці з "header"ом*/
+td.header
+{
+    width:1400px ; 
+    height:100px;	
+	
+}
+
+/*стилі клітинок вкладеної таблиці menu*/
+td.menu
+{
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif,italic;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif,italic;
+	font-size:20px ;
+	color: #f8f9fb;
+	
+	
+}	
+
+td.menu_L
+{
+	width: 300px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif,italic;
+	font-size: 20px;
+	color: #075dfb;
+	
+	
+}	
+	
+
+
+/*стиль клітинки таблиці з футером*/
+
+td.footercont
+{
+	width:1400px;
+	height:423px;
+    border: 0px;
+	border-collapse: collapse;
+	padding-left:200px;
+	background-color: #075dfb;
+}
+	
+ /*стиль тексту клітинки таблиці футеру*/   
+td.text_footer_L
+{
+	width:250px;
+	border: 0px;
+	border-collapse: collapse;
+	padding-top: 10px;
+	padding-left: 0px;
+   
+}
+		
+/*стиль тексту клітинки таблиці футеру"text_CONNECT" */
+
+td.text_CONNECT
+{
+	text-align: center;
+	width:250px;
+	border: 0px;
+	border-collapse: collapse;
+	padding-top: 0px;
+	padding-left: 60px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	
+}	
+
+/*стиль тексту клітинки таблиці футеру"text_CONNECT" */
+
+td.text_ADRESS
+{
+	text-align: center;
+	width:250px;
+	border: 0px;
+	border-collapse: collapse;
+	padding-bottom: 50px;
+	padding-left: 80px;
+	
+	
+}	
+
+/*стиль тексту клітинки таблиці футеру"text_CONNECT" */
+
+td.text_CONTACT
+{
+	text-align: center;
+	width:250px;
+	border: 0px;
+	border-collapse: collapse;
+	padding-top:20px;
+	
+	
+	
+}
+
+
+/*стиль вікна пошуку */
+img.win
+{
+	
+	width: 217px;
+	height: 48;
+	padding-left:70px; 
+    
+}
+ 
+ /*стиль картинок портфоліо */
+img.works
+{
+	
+	width: 313px;
+	height: 235;
+	padding: 10px; 
+    
+}
+
+/*як зміниться стиль клітинки меню при наведенні*/
+td.menu:hover
+{
+	
+}
+/*Стиль клітинки футеру*/
+td.footer
+{
+	
+}
+
+/**********************ПОСИЛАННЯ*********************/
+a
+{
+	
+}
+
+/*не посещенная ссылка*/
+a:link 
+{
+	color: red;
+} 
+
+/*посещенная ссылка*/
+a:visited 
+{
+	color: gray;
+} 
+
+/*перемещение мышки над ссылкой*/
+a:hover 
+{
+	color: yellow;
+} 
+
+/*активная ссылка*/
+a:active 
+{
+	color: lime;
+} 
+
+
+/*--Посилання менююшок--*/
+
+a.menu
+{
+	
+	/*display: inline-block;*/
+}
+
+/*не посещенная ссылка*/
+a.menu:link 
+{
+	color: #075dfb;
+} 
+
+/*посещенная ссылка*/
+a.menu:visited 
+{
+	color: #075dfb;
+} 
+
+/*перемещение мышки над ссылкой*/
+a.menu:hover 
+{
+	color: red;
+} 
+
+/*активная ссылка*/
+a.menu:active 
+{
+	color: black;
+} 
+
+/*Убираем подчеркивание ссылок*/
+a
+{
+	text-decoration: none;
+}
+
+

@@ -1,0 +1,333 @@
+/**********************ОСНОВНЕ*********************/
+/*загальний стиль тіла*/
+*
+{	margin: 0;
+    padding: 0;
+	text-decoration: none;
+}
+.wrapper
+ {
+    background-image: url(img/bg.jpg );
+    width: 100%;
+    text-align: center;
+}
+
+/*відцентровуємо картинку по центру екрану*/
+.conteiner
+{  
+    width: 900px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+/* Прописуємо header: */
+.header
+{
+	
+	height: 150px;
+	background-color: #e0c28d;
+	
+
+} 
+/* Стилі вложених блоків header: */
+.logo
+{
+	width: 200px;
+	height: 150px;
+	background-image: url(img/logovtl.png);
+	background-repeat: no-repeat; 
+	float: left;
+	margin-left: 50px;
+	
+}
+
+.rheader
+{
+float: right;	
+height: 150px;	
+}
+.txtheader
+{
+	font-family: Monotype Corsiva, Times New Roman, Curlz MT, Verdana, Arial;
+	font-size: 50px;
+	font-style: italic;	
+	font-weight: bold;
+	width: 450px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	clear: both; 
+}
+.contacts
+{
+	float: right;
+	clear: right;
+	width: 450px;
+	height: 30px;
+	clear: both;
+}
+/* Прописуємо menu: */
+.menu 
+{
+	list-style: none;
+	height: 40px;
+	margin: 0 auto;
+	background-color: #ab9163;
+	clear: both; 
+	text-align: center;
+}
+.menu span 
+{
+    display: inline-block;
+	width: 20%;
+	height: 100%;
+}
+.menu span:hover
+{
+    background: brown;	
+	
+}
+.menu span a
+{
+    text-decoration: none; /* убираем подчеркивание ссылки */
+    display: block; /* делаем ссылки блочными */
+    padding: 8px 10px ; /* отступы */
+    color: #000; /* цвет ссылок */ 
+    font-family: Verdana, Arial;
+    font-weight: bold;
+}
+.menu span a:active
+{
+	color: #fff;
+}
+/* Колір активного пункту меню */
+.vis
+{
+	background-color: #fff;
+	
+}
+.clear 
+{
+    clear: both;
+}
+.main
+{ 
+    
+	height:50em;
+	background-color: #fff;
+    clear: left;
+	padding-top: 1%;
+	padding-left:1%;
+	padding-right:1%;
+	text-align: left;
+}  
+
+span.title
+{
+    display: block;
+    font-family: Monotype Corsiva, Times New Roman, Curlz MT, Verdana, Arial;
+	font-size: 200%;
+	font-style: italic;	
+	font-weight: bold;
+	padding-top: 4%;
+	margin-bottom: 4%;
+	clear: left;
+}
+
+.foto_text
+{   
+    width: 100%;
+    text-align: justify;	
+	font-family: Times New Roman,Calibri, Verdana, Arial;
+	font-size: 120%;
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+.foto
+{
+	width: 200px;
+	height: 200px;
+	background-image: url(img/myfoto.jpg);
+	background-repeat: no-repeat; 
+	float: left;
+	margin-right: 1%;
+}
+.textbase
+{
+	width: 688px;
+	font-family: Times New Roman,Calibri, Verdana, Arial;
+	font-size: 120%;
+	text-align: justify;
+	float: left;
+	padding: 0;
+	margin: 0;
+	margin-top: 4%;
+	
+}
+/*Cтиль тексту "С уважением*/
+span.uvag
+{	
+	display:block;
+	font-family:  Times New Roman, Curlz MT, Verdana, Arial;
+	font-size: 100%;
+	font-style: italic;
+	
+}
+span.uvag span#grn
+{
+	color: #9dc130;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.welcomimg
+{
+	float: right;
+	position: relative;
+	top: 33%;
+	padding: 0;
+	margin: 0;
+}
+.footer
+{
+	height:38px;
+	background-color: #8f7952;
+	font-family: Verdana, Arial;
+	font-size: 10px;
+	color: #fff;
+	text-align: right;
+	padding: 8px 15px 0px 30px;
+	overflow: hidden;
+	
+}
+.footer::after{
+	display: table;
+	content: "";
+	clear: both;
+}
+@media only screen and (max-width: 800px) {
+	
+	.wrapper
+       {
+		background-image: none;
+		width: 100%;
+		height:100%;
+	}
+}
+
+
+@media only screen and (max-width: 480px) {
+	
+	.wrapper
+       {
+		background-image: url(img/bg1.jpg );
+		width: 100%;
+		height:100%;
+	}
+	.conteiner{
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	
+	.header{
+		
+		height:35%;
+		text-align: center;
+	}
+	
+	
+	.logo{
+		float: none;
+		margin: 0 auto;
+		height: 120px;
+	}
+	
+	.rheader{
+		float: none;
+		clear: both;
+		height: 100%;
+	}
+	.txtheader{
+		width: 100%;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		font-size: 3em;
+		margin-left: 0;
+		padding-left: 0;
+	}
+	.menu{
+		display: block;
+		float: none;
+		height: 20%;
+		
+	}
+	
+	.menu span {
+	float: none;	
+	display: block;
+	width:  40%;
+	margin: 0 auto;
+	}
+	
+	.main{
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+		clear: both;
+	}
+	
+	span.title{
+		float: none;
+		clear: both;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.foto_text{
+		
+		float: none;
+		
+	}
+	
+	.foto{
+		float: none;
+		margin: 0;
+	}
+	
+	.textbase{
+		width: 100%;
+		float: none;
+		margin: 0;
+	}
+	
+	span.uvag{
+		float: none;
+	}
+    
+	.welcomimg{
+		
+		float: none;
+		position: static;
+	}
+	
+	 .footer{
+		 display: none;
+	 }
+	
+	.contacts{
+		width: 100%;
+		margin-left: 0;
+		padding-left: 0;
+		float: none;
+		clear: both;
+		padding-bottom: 0.5em;
+	}
+	
+
+}
+div.number{
+	
+	position: absolute;
+	
+}

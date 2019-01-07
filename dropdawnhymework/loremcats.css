@@ -1,0 +1,160 @@
+/**********************ОСНОВНЕ*********************/
+/*загальний стиль тіла*/
+
+body
+{	margin: 0;
+    padding: 0;
+	background-color: #d4d4d4;
+}
+.wrapper
+ {
+  text-align: center;
+  
+}
+
+/*відцентровуємо картинку по центру екрану*/
+.conteiner
+{  
+    width:850px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	font-family: Calibri, Verdana, Arial;
+    font-size: 20px; 
+    font-weight: 400;
+    text-align: left;
+	border: solid 3px #fff;
+	border-radius: 20px;
+}
+
+/* стиль header */
+.header
+{
+  width: 850px;	
+  height: 150px;
+  background: #FFA473;
+  font-family: Calibri, Verdana, Arial;
+  font-size: 50px; 
+  font-weight: 600;
+  text-align: left;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px; 
+}
+ /* стиль логотипу */
+ .logo
+ {   
+    width: 400px;
+	float:  left;
+	margin-top: 45px;
+	margin-left:20px;
+	
+ } 
+/* картинка header */
+.headercats 
+{   
+	background-image: url(img/headerIMG_3.png); 
+	float: right;
+	margin-top: 5px;
+	margin-right:20px;
+}
+
+/*загальний стиль меню навігації*/
+	
+.clear {
+  clear: both;
+}
+
+.navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #FF8240;
+  border-top: solid 3px #fff;
+  border-bottom: solid 3px #fff;  
+}
+
+.navigation li {
+  float: left;
+}
+
+.navigation li:hover {
+  background: #FF5C00;
+}
+
+.navigation li a {
+  display: block;
+  padding: 0 20px;
+  text-decoration: none;
+  line-height: 40px;
+  color: #fff;
+}
+
+.navigation ul {
+  display: none;
+  position: absolute;
+  list-style: none;
+  margin-left: -3px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navigation li:hover > ul {
+  display: block;
+  background: #FF8240;
+  border: solid 3px #fff;
+  border-top: 0;
+  
+  border-radius: 0 0 8px 8px;
+  
+  box-shadow:  5px 5px 2px 0px rgba(0, 0, 0, 0.4);
+}
+.navigation ul li {
+  float: none;
+}
+
+.navigation li li a:hover {
+  background: #FF4100;
+}
+
+/*загальний стиль "main"*/
+.main
+{
+	width:810px ; 
+    height:425px;
+    background: #fff;
+	clear: right;
+	text-align: justify;
+	padding: 20px;
+	
+}	
+/*картинка maincats   */
+.maincats
+{
+	float: right;
+	margin: 10px ;
+	
+}
+/* стиль footer */
+.footer
+{
+	width: 280px;
+    height: 20px;
+	background-color: #A63A00;	
+	font-family: Verdana, Arial;
+	font-size: 10px;
+	color: #FFFFFF;
+	padding-left: 570px;
+	text-align: middle;
+	padding-top: 7px;
+	border-radius: 0 0 20px 20px;
+}
+ 
+ /* Шрифти */
+span.titl
+{
+    font-family: Calibri, Verdana, Arial;
+	font-size: 40px; 
+	font-weight: 600;
+	text-align: left; 	
+	
+}

@@ -1,0 +1,170 @@
+/**********************ОСНОВНЕ*********************/
+/* Обнуляємо відступи */
+*
+{
+margin: 0;
+padding:  0;	
+	
+}
+/*загальний стиль тіла*/
+
+body
+{	background: #999999;
+    text-align: center;
+	
+	
+}
+/* Центруємо сайт по центру екрана */
+div
+ {
+  margin: 0 auto;
+  width: 1000px;
+  text-align: left;
+}
+
+/*загальний стиль таблиці00*/
+table.table00  
+{   width:1000px ; 
+    height: 800px;
+    border: 0px;
+	border-collapse: collapse;
+	margin-top:  40px;
+}
+
+/*загальний стиль таблиці02*/
+table.table02
+{
+	width:800px ; 
+    height: 605px;
+    border: 0px;
+	margin:0px;
+	border-collapse: collapse;
+	text-align: justify;
+}	
+
+/* стиль клітинки вкладеної таблиці з картинкою "we creat..." */
+td.body
+{
+width: 800;
+height: 380;	
+padding-top: 20px;	
+}		
+/*стиль клітинок вкладеної таблиці з текстом "Lorem_ipsum"*/
+#Lorem_ipsum
+{
+	font-family: Arial, Helvetica, sans-serif,italic;
+	padding-left: 15px;
+	padding-right:15px;
+	
+}
+
+/*стиль клітинок футеру*/
+#footer
+{
+  text-align: center;  	
+}
+
+
+
+/*стиль логотипу*/
+img.logo
+{
+	width: 143;
+	height: 71;
+	padding-left: 80px;
+    padding-top: 20px;
+	padding-bottom:20px;
+	
+}
+
+
+/*як зміниться стиль клітинки меню при наведенні*/
+td.menu:hover
+{
+	
+}
+/*Стиль клітинки футеру*/
+td.footer
+{
+	
+}
+
+/**********************ПОСИЛАННЯ*********************/
+a
+{
+	
+}
+
+/*не посещенная ссылка*/
+a:link 
+{
+	color: red;
+} 
+
+/*посещенная ссылка*/
+a:visited 
+{
+	color: blue;
+} 
+
+/*перемещение мышки над ссылкой*/
+a:hover 
+{
+	color: yellow;
+} 
+
+/*активная ссылка*/
+a:active 
+{
+	color: lime;
+} 
+
+
+/*--Посилання менююшок--*/
+
+a.menu
+{
+	
+	/*display: inline-block;
+*/
+}
+
+/*не посещенная ссылка*/
+a.menu:link 
+{
+	color: #000;
+} 
+
+/*посещенная ссылка*/
+a.menu:visited 
+{
+	color: #000;
+} 
+
+/*перемещение мышки над ссылкой*/
+a.menu:hover 
+{
+	color: #fff;
+} 
+
+/*активная ссылка*/
+a.menu:active 
+{
+	color: #fff;
+} 
+
+/**********************ШРИФТИ*********************/
+/*стиль заголовку*/
+h1
+{	
+   font-family: Arial, Helvetica, sans-serif,italic;	
+   font-size: x-large;
+   
+}
+/*стиль параграфу*/
+p
+{
+	
+}
+/*стиль тексту в футері*/
+
